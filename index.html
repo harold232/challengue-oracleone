@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="encrypt.js"></script>
+    <title>Encriptado</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <img class="logo" src="assets/logo.png" alt="Logo Alura">
+    </header>
+
+    <main class="main">
+        <section class="input__area">
+            <textarea id="text-input" class="text__area" placeholder="Ingrese el texto aquí"></textarea>
+            
+            <div class="main__buttons">
+                <a id="encrypt-button" class="main__buttons__encrypt">Encriptar</a>
+                <a id="decrypt-button" class="main__buttons__encrypt">Desencriptar</a>
+                <!-- <a id="copy-button" class="main__buttons__encrypt">Copiar</a> -->
+            </div>
+        </section>
+
+        <section class="encrypt__area">
+            <div id="output-area">
+                <img id="output-image" src="assets/Muñeco.png" alt="Muñeco">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
 </body>
+
 </html>
